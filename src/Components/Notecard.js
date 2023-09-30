@@ -16,8 +16,6 @@ const deleteNote = async (id)=>{
  } 
 }
 
-
-
 const Notecard = (props) => {
   return (
     <div className="single_card">
