@@ -1,12 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 import CloseButton from "react-bootstrap/CloseButton";
-import { Button, ToastContainer } from "react-bootstrap";
-import useFetchData from "./useFetchData";
+import { Button } from "react-bootstrap";
 import { doc, updateDoc } from "firebase/firestore";
 import db from "../firebase-config";
-import { toast } from "react-toastify";
 
-const notesparent = document.querySelector(".notes_section");
 // const notify = () => toast('Database cannot be Updated due to Firebase Quota limit Exceded');
 
 

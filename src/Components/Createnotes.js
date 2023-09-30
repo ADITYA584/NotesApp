@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { addDoc } from "firebase/firestore";
 import db from "../firebase-config";
 import { collection } from "firebase/firestore";
@@ -14,7 +14,7 @@ const Createnote = () => {
     Subject: "",
     Message: "",
   });
-
+  console.log(notes)
   const notesCollectionRef = collection(db, "Notes");
 
   function handelChange(event) {

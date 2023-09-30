@@ -1,7 +1,7 @@
 import React from "react";
 import Notes from "./Notes";
 import Createnotes from "./Createnotes";
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 
 const Main = () => {
   return (

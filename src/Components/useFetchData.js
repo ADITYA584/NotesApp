@@ -1,7 +1,7 @@
 import { useState } from "react";
 import db from "../firebase-config";
 import { collection, getDocs} from "firebase/firestore";
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function useFetchData() {
@@ -18,7 +18,7 @@ function useFetchData() {
     }
     catch(error){
 
-      {notify()}
+      notify()
       console.log(`The Error is ${error}`)
     }
     

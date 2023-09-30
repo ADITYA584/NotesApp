@@ -1,6 +1,6 @@
 import React from "react";
 import Notecard from "./Notecard";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import useFetchData from "./useFetchData";
 import ReactPaginate from "react-paginate";
 import UpdatePopup from "./UpdatePopup";
