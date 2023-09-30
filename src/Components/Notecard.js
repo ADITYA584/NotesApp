@@ -17,6 +17,8 @@ const deleteNote = async (id)=>{
 }
 
 const Notecard = (props) => {
+
+  const pinFunction = props.pinfunction
   return (
     <div className="single_card">
       <div className="main">

@@ -24,7 +24,7 @@ function useFetchData() {
     
   };
 
-  return [{ notes }, getNotes];
+  return [{ notes }, getNotes,setnotes];
 }
 
 export default useFetchData;

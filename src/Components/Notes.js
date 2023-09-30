@@ -14,6 +14,7 @@ const Notes = () => {
   const userPerPage = 6;
   const PageVisited = pageNumber * userPerPage;
   const [id, setId] = useState();
+
   const displayUser = notes
     .slice(PageVisited, PageVisited + userPerPage)
     .map((note) => {
